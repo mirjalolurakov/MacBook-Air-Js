@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="offer__action ">
+                <button data-modal class="btn btn__modal btn">Connect with us</button>
+            </div>
+        </div>
+    </header>
+    <div class="container wrapper">
+        <div class="col-6 col-s-9 title">
+            <h1>Supercharged for pros.</h1>
+            <p>The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip —
+                the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life.
+                Add
+                to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all
+                the
+                ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+        </div>
+
+        <div class="main__content ">
+            <div class="mac__content ">
+                <div class="mac__img">
+                    <img class="main__img" src="./src/assets/img/mac.png" alt="mac">
+                </div>
+
+            </div>
+            <div class="mac__info wrapper">
+                <div class="mac__title">Macbook Pro</div>
+                <span>White</span>
+                <div class="mac__price">$1,999</div>
+            </div>
+        </div>
+        <div class="choose_content wrapper">
+            <button class="white_btn">White</button>
+            <button class="space_btn">Space Gray</button>
+        </div>
+        <div class="choose__memory">
+            <div class="memory active memory_defTb">
+                <p>512 GB SSD</p>
+            </div>
+            <div class="memory">
+                <div class="memory_inf memory_oneTb">
+                    <p>1 TB SSD</p>
+                    <h2>+$200</h2>
+                </div>
+            </div>
+            <div class="memory">
+                <div class="memory_inf memory_twoTb">
+                    <p>2 TB SSD</p>
+                    <h2>+$600</h2>
+                </div>
+
+            </div>
+            <div class="memory">
+                <div class="memory_inf memory_threeTb">
+                    <p>4 TB SSD</p>
+                    <h2>+$1200</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal ">
+            <div class="modal__dialog">
+                <div class="modal__content">
+                    <form action="#">
+                        <div data-close class="modal__close">&times;</div>
+                        <div class="modal__title">We will contact you as soon as possible!</div>
+                        <input required placeholder="Your name" name="name" type="text" class="modal__input">
+                        <input required placeholder="Your phone number" name="phone" type="phone" class="modal__input">
+                        <button class="btn btn_dark btn_min">Call me back</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
