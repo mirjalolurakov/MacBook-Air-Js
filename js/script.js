@@ -53,13 +53,13 @@ let spaceBtn = document.querySelector(".space_btn")
 let mainImg = document.querySelector(".main__img")
 let span = document.querySelector("span")
 
-let img1 = "./src/assets/img/img1.svg"
-let img2 = "./src/assets/img/img2.svg"
+let img1 = "./src/assets/image/img1.svg"
+let img2 = "./src/assets/image/img2.svg"
 
 let change__img1 = () => {
     mainImg.src = img1
     span.innerText = "White"
-    whiteBtn.style.background.
+
 }
 
 let change__img2 = () => {

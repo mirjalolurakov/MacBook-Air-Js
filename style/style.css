@@ -269,6 +269,11 @@ button {
 
 }
 
+.memory:hover {
+
+    border: #0071E3 2px solid;
+}
+
 .modal__title {
     text-align: center;
     font-size: 18px;
